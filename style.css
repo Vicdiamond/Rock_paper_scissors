@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: oblique;
+  background-color: #ab44db;
+  color: #020305;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  max-width: 100%;
+  width: 50px;
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 15px;
+  mix-blend-mode: multiply;
+  margin: 10px;
+}
+.update {
+  display: flex;
+}
+button {
+  padding: 10px;
+  border-radius: 30px;
+  border: none;
+  color: #ab44db;
+  background-color: #020305;
+  margin: 10px;
+}
